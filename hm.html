@@ -1,0 +1,238 @@
+<html>
+ <head>
+  <style>
+    body{
+     background-image:url("https://cdn.staticcrate.com/stock-hd/effects/footagecrate-low-poly-background-black-wall-prev-full.png");
+     }
+   </style>
+   <style>
+    p1{ font-size:30px;
+        color:#FFFFFF; }
+   </style>
+   <style>
+    p3{ text-align:right;
+       }
+   </style>
+  <style>
+  .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+  <style>
+       #image img{
+             position: absolute;
+             top:50px;
+             right: 0px;
+            }
+     </style>
+ </head>
+<body>
+    <div id="image">
+      <a href=""><img src="https://cdn-icons-png.flaticon.com/512/61/61135.png" alt="" width="60px" height="60px"></a>
+    </div>
+    <p2 style="background-color:grey;font-size:25px"><marquee behavior="scroll" scrollamount="10"> Watch your favourite movies!!!!!</marquee></p2>
+    
+   <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Languages</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Telugu</a>
+    <a href="#about">Hindi</a>
+    <a href="#contact">Malyalam</a>s
+     <a href="#home">Tamil</a>
+    <a href="#about">Kannada</a>
+    <a href="#contact">English</a>
+     <a href="#home">Korean</a>
+  </div>
+</div>
+   
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+ 
+<div class="dropdown">
+  <button onclick="myFunction1()" class="dropbtn">Genres</button>
+  <div id="myDropdown1" class="dropdown-content">
+    <a href="#act">Action</a>
+    <a href="#com">Comedy</a>
+    <a href="#drama">Drama</a>
+     <a href="#horror">Horror</a>
+    <a href="#thriller">Thriller</a>
+    <a href="#fiction">Fiction</a>
+  </div>
+</div>
+   
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+  document.getElementById("myDropdown1").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+ 
+  <p3 style="text-align:right"><input type="text" name="ser"><input type="submit" value="search"></p3>
+ <table align="left">
+  <tr><td><p1>New Releases</p1></td></tr>
+  <br><br>
+  <tr><td><a href="https://en.wikipedia.org/wiki/RRR_(film)"><img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/11/23171804/243790350_4438147812927955_1754826358579203828_n.webp_.jpg" width:"200px" height="200px"></a> 
+         <a href="https://en.wikipedia.org/wiki/Bhool_Bhulaiyaa_2"><img src="https://upload.wikimedia.org/wikipedia/en/2/23/Bhool_Bhulaiyaa_2_film_poster.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/e/ee/Major_The_Film.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Peninsula_poster.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/05/Space_Sweepers.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/14/Midnight_2021_film.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Jayeshbhai_Jordaar.jpg" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/3/31/Jana.Gana.Mana.2022.Malayalam.Film.jpeg" width="150px" height="200px"></a></td></tr>
+      <br><br>
+       
+         <tr><td><input type="submit" value="₹10" style="padding-left:9%;background-color:green"><input type="submit" value="₹10" style="padding-left:11%;background-color:green"><input type="submit" value="₹10" style="padding-left:12%;background-color:green"><input type="submit" value="₹10" style="padding-left:11%;background-color:green"><input type="submit" value="₹10" style="padding-left:12%;background-color:green"><input type="submit" value="₹10" style="padding-left:11.5%;background-color:green"><input type="submit" value="₹10" style="padding-left:8%;background-color:green"><input type="submit" value="₹10" style="padding-left:8%;background-color:green"></td></tr></table>
+     <table> <tr><td><p1>Action & Adventure</p1></td></tr>
+  <br><br>
+  <tr><td><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/JurassicWorldDominion_Poster.jpeg" width:"200px" height="200px" ></a> 
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/3/34/Fantastic_Beasts-_The_Secrets_of_Dumbledore.png" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Morbius_%28film%29_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/e/ee/TheLostCityPoster.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/f/ff/The_Batman_%28film%29_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/4/45/Sonic_the_Hedgehog_film_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/00/The_Bad_Guys_poster.jpeg" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg" width="150px" height="200px"></a></td></tr>
+      <br><br></table>
+   <table>
+  <tr><td><p1>Comedy</p1></td></tr>
+  <br><br>
+  <tr><td><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/6/68/Brochevarevarura_poster.jpg" width:"200px" height="200px"></a> 
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Ghostbusters_-_Afterlife_official_theatrical_poster.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Hungama_2_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Free_Guy_2021_Poster.jpg"alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Housefull_4_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Turning_Red_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/0e/The_Boss_Baby_poster.jpg" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png"width="150px" height="200px"></a></td></tr>
+      <br><br></table>
+  <table>
+ <tr><td><p1>Drama</p1></td></tr>
+  <br><br>
+  <tr><td><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Death_on_the_Nile_%282020_film%29_poster.png" width:"200px" height="200px"></a> 
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/K.G.F_Chapter_1_poster.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/3/32/Dil_Bechara_film_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/6/69/83_film_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/6/62/Karnan_2021_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Jersey_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/8/85/Sanju_poster.jpg" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Jai_Bhim_film_poster.jpg" alt="jai bhim" width="150px" height="200px"></a></td></tr>
+      <br><br></table>
+  <table>
+ <tr><td><p1>Horror</p1></td></tr>
+  <br><br>
+  <tr><td><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/00/Veronica_%282017_Spanish_film%29.jpg" width:"200px" height="200px"></a> 
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Call_poster.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/4/45/Run_poster.jpeg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/6/68/The_House_Next_Door_-_Poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/d/dc/Lights_Out_2016_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/e/eb/The_Wailing_%28film%29.png" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/08/Annabelle_Creation.jpg" width="150px" height="200px"></a></td></tr>
+      <br><br></table>
+   <table>
+  <tr><td><p1>Thriller</p1></td></tr>
+  <br><br>
+  <tr><td><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Forensic_film_poster.jpg" width:"200px" height="200px"></a> 
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/9/99/Escape_Room_%282019_poster%29.png" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/12/HIT_The_First_Case.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Evaru_Poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/01/Glass_%282019_poster%29.png" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/0/00/Us_%282019%29_theatrical_poster.png" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/9/95/Train_to_Busan.jpg" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Maanaadu_poster.jpg" width="150px" height="200px"></a></td></tr>
+      <br><br></table>
+    <table>
+   <tr><td><p1>Fiction</p1></td></tr>
+  <br><br>
+  <tr><td><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Moonfall_film_poster.jpg" width:"200px" height="200px"></a> 
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg" alt="" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Bird_Box_%28film%29.png" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Stand_by_Me_Doraemon_2.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg" width="200px" height="200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Tik_Tik_Tik_Poster.jpg" width="150px" height"200px"></a>
+         <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/a/a5/The_Meg_2018_film_cover.png" width="150px" height="200px"></a></td></tr>
+      <br><br>
+</table>
+</body>
+</html>
